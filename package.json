@@ -1,8 +1,8 @@
 {
   "name": "react-custom-dropdown",
-  "version": "1.0.0",
+  "version": "0.8.0",
   "description": "Fully customizable dropdown react component.",
-  "main": "./lib/DropDown.js",
+  "main": "./lib/index.js",
   "files": [
     "dist",
     "lib"
