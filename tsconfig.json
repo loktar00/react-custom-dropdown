@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": { "*": ["types/*"] },
+        "target": "esnext",
+        "declaration": true,
+        "module": "esnext",
+        "pretty": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "strict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "types": ["jest"],
+        "typeRoots": [
+            "../../typings",
+            "../../node_modules/@types"
+        ],
+        "outDir": "./lib/"
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "**/__tests__/**"
+    ]
+}

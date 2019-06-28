@@ -1,0 +1,6 @@
+lib
+node_modules
+src/applications/**/*.*
+./src/Utility/*.js
+./src/vendor components/**/*.*
+./src/Vendor components/**/*.*
